@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page ABook</title>
+    <link rel="stylesheet" href="./css_complete_Abook.css">
+</head>
+
+<body>
+<!------------------Top of Profile-Including profile icon---------------------->
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="images/logo.png" alt="logo" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/my2.jpg">
+            </div>
+        </div>
+
+        <div class="settings-menu">
+
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+<!----------------------------setting menu--------------------------------------->
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/my1.jpg" alt="">
+                    <div class="">
+                        <p>Nikolas Jackson</p>
+                        <a href="ProfilePage.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="">
+                    <div class="">
+                        <p>Give Feedback</p>
+                        <a href="#">Help Us to improve the new Design</a>
+                    </div>
+                </div>
+                <hr>
+<!------------------------setting options-------------------------------------------->
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accesibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+    </nav>
+
+<!---------------------------profile main part---------------------------------------------->
+    <div class="profile-container">
+        <video src="./images/data type.mp4" autoplay controls class="cover-img"></video>
+       
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/my3.JPG" class="pd-img">
+                    <div>
+                        <h3>Aayush Garg</h3>
+                        <p>189 Friends - 14 mutual</p>
+                        <img src="images/pranit.png">
+                        <img src="images/pritam.jpg">
+                        <img src="images/sammy.png">
+                        <img src="images/profile-pic.png">
+
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"><img src="images/add-friends.png" alt="">Friends</button>
+                <button type="button"><img src="images/message.png" alt="">Message</button>
+                <br>
+                <a href=""><img src="images/more.png"></a>
+            </div>
+        </div>
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">
+                    <pre><q>If you can dream it,you can do it.
+Belive in u and u can do unbelivable things
+                    </q></pre>
+                    <img src="images/feeling.png" alt="">
+                    </p>
+                    <hr>
+                    <ul>
+                        <li> <img src="images/profile-job.png" alt="">Aspiring Software Engineer </li>
+                        <li><img src="images/profile-study.png" alt="">B.Tech Student</li>
+                        <li><img src="images/profile-study.png" alt="">went to G.V.M. Sr. Sec. School</li>
+                        <li><img src="images/profile-home.png" alt="">Lives in Phagwara, Punjab</li>
+                        <li><img src="images/profile-location.png" alt="">From Haryana, India</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="">All Photos</a>
+                    </div>
+
+                    <div class="photo-box">
+                        <div><img src="images/my1.jpg" class="frnd"></div>
+                        <div><img src="images/profile-pic.png" class="frnd"></div>
+                        <div><img src="images/pritam.jpg" class="frnd"></div>
+                        <div><img src="images/radhakrishna.png" class="frnd"></div>
+                        <div><img src="images/aayushtechimg.jpg" class="frnd"></div>
+                        <div><img src="images/list 2.png" class="frnd"></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="">All Friends</a>
+                    </div>
+                    <p>120 (10 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="images/pranit.png" class="frnd1 frnd">
+                            <p>Pranit</p>
+                        </div>
+                        <div><img src="images/pritam.jpg" class="frnd2 frnd">
+                            <p>Pritam Paul</p>
+                        </div>
+                        <div><img src="images/sammy.png" class="frnd3 frnd">
+                            <p>Sammy</p>
+                        </div>
+                        <div><img src="images/radhakrishna.png" class="frnd4 frnd">
+                            <p>Rashmi</p>
+                        </div>
+                        <div><img src="images/khatushyam.png" class="frnd5 frnd">
+                            <p>Anit</p>
+                        </div>
+                        <div><img src="images/iasakshita.png" class="frnd6 frnd">
+                            <p>IAS Akshita</p>
+                        </div>
+                        <div><img src="images/nikhil.png" class="frnd7 frnd">
+                            <p>Nikhil</p>
+                        </div>
+                        <div><img src="images/makeinindia.png" class="frnd8 frnd">
+                            <p>Balbir Singh</p>
+                        </div>
+                        <div><img src="images/webdevicon.png" class="frnd9 frnd">
+                            <p>Web Developer</p>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+
+            </div>
+<!------------------------------- post starting -------------------------------------->
+
+            <div class="post-col">
+
+                <div class="write-post-container">
+                    <div class="user-profile">
+
+                        <img src="images/my1.jpg" alt="profile-pic">
+                        <div class="">
+                            <p>Aayush Garg</p>
+                            <small>Public</small>
+                        </div>
+                    </div>
+
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on our Mind, Aayush Garg"></textarea>
+
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+                            <a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+                            <a href="#"><img src="images/feeling.png" alt="">Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+<!------------------------------- post  1-------------------------------->
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/my1.jpg" alt="profile-pic">
+                            <div class="">
+                                <p>Aayush Garg</p>
+                                <span>June 23 2023, 6:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis"></i></a>
+                    </div>
+
+
+                    <p class="post-text">Jai Shree Krishna to all.Radhe Radhe.
+                        <a href="#">#Radhe-Radhe</a>
+                        <a href="#">#Hare-Krishna </a>
+                    </p>
+                    <a href="./images/radhakrishna.png"><img src="images/radhakrishna.png" class="post-img"></a>
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="images/like-blue.png">120
+
+                            </div>
+                            <div>
+                                <img src="images/comments.png">46
+
+                            </div>
+                            <div>
+                                <img src="images/share.png">22
+
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/nikhil.png">
+                        </div>
+                    </div>
+
+                </div>
+<!------------------------------- post  2----------------------------------->
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/my1.jpg" alt="">
+                            <div class="">
+                                <p>Aayush Garg</p>
+                                <span>June 17 2023, 10:40 am</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis"></i></a>
+                    </div>
+
+
+                    <p class="post-text">Subscribe to my channel for more programming
+                        tutorials and Data Structures and
+                        Algoriths
+                        <a href="https://www.youtube.com/watch?v=rQ0pd-kYLAc&t=9s">#programming</a>
+                        <a href="https://www.youtube.com/watch?v=rQ0pd-kYLAc&t=9s">#tutorials </a>
+
+                    </p>
+                    <a href="http://www.youtube.com/@aayushgarg6612" target="_blank" class="post-img"><img
+                            src="images/aayushtechimg.jpg" alt="aayushtechimg"></a>
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="images/like.png">120
+
+                            </div>
+                            <div>
+                                <img src="images/comments.png">46
+
+                            </div>
+                            <div>
+                                <img src="images/share.png">22
+
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/sammy.png">
+                        </div>
+                    </div>
+
+                </div>
+<!------------------------------- post  3----------------------------------->
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/my1.jpg" alt="">
+                            <div class="">
+                                <p>Aayush Garg</p>
+                                <span>June 1, 5:20 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis"></i></a>
+                    </div>
+
+
+                    <p class="post-text">Subscribe to my channel for more programming
+                        tutorials and Data Structures and
+                        Algoriths
+                        <a href="https://www.youtube.com/watch?v=Z53odc55Jwk&t=231s">#programming</a>
+                        <a href="https://www.youtube.com/watch?v=Z53odc55Jwk&t=231s">#tutorials </a>
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=Z53odc55Jwk&t=231s"><img src="images/list 2.png"
+                            class="post-img"></a>
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="images/like-blue.png">120
+
+                            </div>
+                            <div>
+                                <img src="images/comments.png">46
+
+                            </div>
+                            <div>
+                                <img src="images/share.png">22
+
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/iasakshita.png">
+                        </div>
+                    </div>
+
+
+
+                </div>
+<!------------------------------- post  4------------------------------------->
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/my1.jpg" alt="">
+                            <div class="">
+                                <p>Aayush Garg</p>
+                                <span>May 24 2023, 1:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis"></i></a>
+                    </div>
+
+
+                    <p class="post-text">Subscribe to my channel for more programming
+                        tutorials and Data Structures and
+                        Algoriths
+                        <a href="#">#programming</a>
+                        <a href="#">#tutorials </a>
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=pLeKYrtYnaU&t=372s"><img src="images/Screenshot (37).png"
+                            class="post-img"></a>
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="images/like-blue.png">120
+
+                            </div>
+                            <div>
+                                <img src="images/comments.png">46
+
+                            </div>
+                            <div>
+                                <img src="images/share.png">22
+
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/pranit.png">
+                        </div>
+                    </div>
+
+                </div>
+<!--------------------------------post 5----------------------------------->
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/my1.jpg" alt="profile-pic">
+                            <div class="">
+                                <p>Aayush Garg</p>
+                                <span>June 23 2023, 6:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis"></i></a>
+                    </div>
+                    <p class="post-text">Subscribe to my channel for more programming
+                        tutorials and Data Structures and
+                        Algoriths
+                        <a href="#">#programming</a>
+                        <a href="#">#tutorials </a>
+                    </p>
+                    <a href="http://www.youtube.com/@aayushgarg6612"><img src="images/aayushtechimg.jpg"
+                            class="post-img"></a>
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="images/like-blue.png">120
+
+                            </div>
+                            <div>
+                                <img src="images/comments.png">46
+
+                            </div>
+                            <div>
+                                <img src="images/share.png">22
+
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/shivam.png">
+                        </div>
+                    </div>
+
+                </div>
+<!------------------------------- post 6 ------------------------------------->
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/my1.jpg" alt="">
+                            <div class="">
+                                <p>Aayush Garg</p>
+                                <span>MAY 21 2023, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis"></i></a>
+                    </div>
+
+
+                    <p class="post-text">Jai Shree Krishna to all.Radhe Radhe.
+                        <a href="#">#Radhe-Radhe</a>
+                        <a href="#">#Hare-Krishna </a>
+                    </p>
+                    <a href="./images/khatushyam.png"><img src="images/khatushyam.png" class="post-img"></a>
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="images/like-blue.png">120
+
+                            </div>
+                            <div>
+                                <img src="images/comments.png">46
+
+                            </div>
+                            <div>
+                                <img src="images/share.png">22
+
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/shivam.png">
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+<div class="footer">
+        <p>CopyRight 2023 - AAYUSHTECH</p>
+    </div>
+
+<script src="Abook_script.js"></script>
+</body>
+
+</html>

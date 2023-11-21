@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABook</title>
+    <link rel="stylesheet" href="./css_complete_Abook.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="images/logo.png" alt="logo" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+<!------------------------Search-Box-------------------------->
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png"><label>
+                    <input type="text" placeholder="search"></label>
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/my1.jpg" class="view-profile-pic">
+            </div>
+        </div>
+
+
+        <div class="settings-menu">
+
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/my1.jpg" alt="">
+                    <div class="">
+                        <p>Aayush Garg</p>
+                        <a href="ProfilePage.html" target="_blank">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="">
+                    <div class="">
+                        <p>Give Feedback</p>
+                        <a href="#">Help Us to improve the new Design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accesibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+    </nav>
+<!------------------------left-sidebar--------------------------------------->
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png" alt="">Latest News</a>
+                <a href="#"><img src="images/friends.png" alt="">Friends</a>
+                <a href="#"><img src="images/group.png" alt="">Groups</a>
+                <a href="#"><img src="images/marketplace.png" alt="">MarketPlaces</a>
+                <a href="#"><img src="images/watch.png" alt="">Watch</a>
+                <a href="#">see more</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png" alt="">Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png" alt="">Web Design Course</a>
+                <a href="#"><img src="images/shortcut-3.png" alt="">Full stack Developement</a>
+                <a href="#"><img src="images/shortcut-4.png" alt="">Website Experts</a>
+            </div>
+        </div>
+
+<!-----------------------------Main-Content----------------------------------->
+        <div class="main-content">
+<!--------------------------------------Story-------------------------------->
+
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png" alt="profile-pic">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <a href="http://www.youtube.com/@aayushgarg6612"> <img src="images/my1.jpg" alt="profile-pic">
+                        <p>Aayush Garg</p>
+                    </a>
+                </div>
+                <div class="story story3">
+                    <a href="https://www.youtube.com/watch?v=pLeKYrtYnaU&t=372s"><img src="images/profile-pic.png"
+                            alt="profile-pic">
+                        <p>Aayush</p>
+                    </a>
+                </div>
+                <div class="story story4">
+                    <a href="./images/pritam.jpg"><img src="images/pritam.jpg" alt="pic">
+                        <p>Pritam Paul</p>
+                    </a>
+                </div>
+                <div class="story story5">
+                    <a href="https://www.youtube.com/watch?v=rQ0pd-kYLAc&t=9s"><img src="images/aayushtechimg.jpg"
+                            alt="">
+                        <p>AAYUSHTECH</p>
+                    </a>
+                </div>
+            </div>
+<!-----------------Post---------------------------------------------->
+<!-----------------Post1---------------------------------------------->
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <a href="https://www.youtube.com/watch?v=rQ0pd-kYLAc&t=9s"><img src="images/my1.jpg"
+                            alt="profile-pic"></a>
+                    <div class="">
+                        <p>Aayush Garg</p>
+                        <small>Public</small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on our Mind, Aayush Garg"></textarea>
+
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+                        <a href="http://www.youtube.com/@aayushgarg6612"><img src="images/photo.png"
+                                alt="photo/video">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png" alt="">Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+<!-----------------Post2---------------------------------------------->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <a href="http://www.youtube.com/@aayushgarg6612"> <img src="images/my1.jpg"
+                                alt="profile-pic"></a>
+                        <div class="">
+                            <p>Aayush Garg</p>
+                            <span>Nov 12 2023, 11:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis"></i></a>
+                </div>
+
+
+                <p class="post-text">Subscribe to my channel for more programming
+                    tutorials and Data Structures and
+                    Algoriths
+                    <a href="https://www.youtube.com/watch?v=rQ0pd-kYLAc&t=9s">#programming</a>
+                    <a href="https://www.youtube.com/watch?v=rQ0pd-kYLAc&t=9s">#tutorials </a>
+                </p>
+                <a href="http://www.youtube.com/@aayushgarg6612"><img src="images/aayushtechimg.jpg"
+                        class="post-img"></a>
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="images/like-blue.png">120
+
+                        </div>
+                        <div>
+                            <img src="images/comments.png">46
+
+                        </div>
+                        <div>
+                            <img src="images/share.png">22
+
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <a href="http://www.youtube.com/@aayushgarg6612"><img src="images/my1.jpg"></a>
+                    </div>
+                </div>
+<!-----------------Post3---------------------------------------------->
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <a href="./images/my1.jpg"><img src="images/my1.jpg" alt=""></a>
+                        <div class="">
+                            <p>Aayush Garg</p>
+                            <span>Oct. 24 2023, 1:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="https://www.youtube.com/watch?v=x6-ShP7j764&t=58s"><i class="fas fa-ellipsis"></i></a>
+                </div>
+
+
+                <p class="post-text">Like and share with your friends and tag me in your posts
+                    <a href="https://www.youtube.com/watch?v=x6-ShP7j764&t=58s">#doing B.Tech</a>
+                    <a href="https://www.youtube.com/watch?v=x6-ShP7j764&t=58s">#Follow AAYUSHTECH </a>
+                </p>
+                <a href="./images/profile-pic.png"><img src="images/profile-pic.png" class="post-img"></a>
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="images/like.png">120
+
+                        </div>
+                        <div>
+                            <img src="images/comments.png">46
+
+                        </div>
+                        <div>
+                            <img src="images/share.png">22
+
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <a href="http://www.youtube.com/@aayushgarg6612"><img src="images/profile-pic.png"></a>
+                    </div>
+                </div>
+
+            </div>
+<!-----------------Post4---------------------------------------------->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <a href="http://www.youtube.com/@aayushgarg6612"><img src="images/profile-pic.png" alt=""></a>
+                        <div class="">
+                            <p>Aayush</p>
+                            <span>Sep. 30 2023, 9:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis"></i></a>
+                </div>
+
+
+                <p class="post-text">Subscribe to my channel for more programming
+                    tutorials and Data Structures and
+                    Algoriths
+                    <a href="https://www.youtube.com/watch?v=OJHzrYH-zGw&t=271s">#programming</a>
+                    <a href="https://www.youtube.com/watch?v=OJHzrYH-zGw&t=271s">#tutorials </a>
+                </p>
+                <a href="https://www.youtube.com/watch?v=pLeKYrtYnaU&t=372s"><img src="images/Screenshot (37).png"
+                        class="post-img"></a>
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="images/like-blue.png">120
+
+                        </div>
+                        <div>
+                            <img src="images/comments.png">46
+
+                        </div>
+                        <div>
+                            <img src="images/share.png">22
+
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <a href="http://www.youtube.com/@aayushgarg6612"><img src="images/profile-pic.png"></a>
+                    </div>
+                </div>
+<!-----------------Post5---------------------------------------------->
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <a href="./images/pritam.jpg"><img src="images/pritam.jpg" alt="post-pic"></a>
+                        <div class="">
+                            <p>Pritam Paul</p>
+                            <span>Sep. 24 2023, 5:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis"></i></a>
+                </div>
+
+
+                <p class="post-text">Enjoying in the mall with friends for a little break
+                    and relaxation.
+                    <a href="https://instagram.com/paulpritam413?igshid=MXM2bXV0dWV6YmY2ZA==" target="_blank">#pritam
+                        Paul, My Follow me on INSTAGRAM</a>
+                    <a href="#">#unimall </a>
+                </p>
+                <a href="./images/pritam.jpg"><img src="images/pritam.jpg" class="post-img"></a>
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="images/like-blue.png">120
+
+                        </div>
+                        <div>
+                            <img src="images/comments.png">46
+
+                        </div>
+                        <div>
+                            <img src="images/share.png">22
+
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <a href="http://www.youtube.com/@aayushgarg6612" target="_blank"><img
+                                src="images/aayushtechimg.jpg"></a>
+                    </div>
+                </div>
+<!-----------------Post6---------------------------------------------->
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <a href="http://www.youtube.com/@aayushgarg6612" target="_blank"><img
+                                src="images/aayushtechimg.jpg" alt="aayushtechimg"></a>
+                        <div class="">
+                            <p>AAYUSHTECH</p>
+                            <span>Sep. 17 2023, 10:15 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis"></i></a>
+                </div>
+
+
+                <p class="post-text">Learn list and list operations in Python. #LearnPython.Subscribe to my channel for
+                    more programming
+                    tutorials and Data Structures and
+                    Algoriths
+                    <a href="https://www.youtube.com/watch?v=kEcx7uNxaPs">#programming</a>
+                    <a href="https://www.youtube.com/watch?v=kEcx7uNxaPs">#tutorials </a>
+                    <a href="#">List in Pyhton</a>
+                </p>
+                <a href="https://www.youtube.com/watch?v=Z53odc55Jwk&t=231s"><img src="images/list 2.png"
+                        class="post-img"></a>
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="images/like-blue.png">120
+
+                        </div>
+                        <div>
+                            <img src="images/comments.png">46
+
+                        </div>
+                        <div>
+                            <img src="images/share.png">22
+
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <a href="http://www.youtube.com/@aayushgarg6612" target="_blank"><img
+                                src="images/profile-pic.png"></a>
+                    </div>
+                </div>
+
+            </div>
+<!------------------------Load-More------------------------------------>
+            <button type="button" class="load-more">
+                Load More
+            </button>
+
+        </div>
+
+<!--------------------Right Side bar--------------------------------->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>14</h3>
+                    <span>July</span>
+                </div>
+                <div class="right-event">
+                    <h4>Chandrayaan 3 launch</h4>
+                    <p>Sriharikota, Andhra Pradesh</p>
+                    <a
+                        href="https://www.bing.com/ck/a?!&&p=be6cff2d7cde4e5aJmltdHM9MTY5OTkyMDAwMCZpZ3VpZD0yODQ1ZGI4Yy05ZDhhLTYyMTQtMGU3MS1jODlhOWM4YzYzZTgmaW5zaWQ9NTIzNQ&ptn=3&ver=2&hsh=3&fclid=2845db8c-9d8a-6214-0e71-c89a9c8c63e8&psq=chandrayaan+3&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQ2hhbmRyYXlhYW4tMw&ntb=1">More
+                        Info</a>
+                </div>
+
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Father's Day</h4>
+                    <a href="https://www.youtube.com/watch?v=sFrMhdQTjLE">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/aayushtechimg.jpg" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/pranit.png" alt="">
+                </div>
+                <p>Pranit </p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/pritam.jpg" alt="">
+                </div>
+                <p>Pritam Paul</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/nikhil.png" alt="">
+                </div>
+                <p>Nikhil</p>
+            </div>
+
+
+
+        </div>
+    </div>
+<!---------------------copy-Right _creator----------------------------->
+    <div class="footer">
+        <p>CopyRight 2023 - AAYUSHTECH</p>
+    </div>
+    <script src="Abook_script.js"></script>
+</body>
+
+</html>
